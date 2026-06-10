@@ -2,7 +2,7 @@
 # FastAPI & Generative AI Production Roadmap
 ### From Zero to Production (Expanded Edition)
 
-> A comprehensive, highly detailed step-by-step guide covering everything you need: Python, FastAPI, and production-grade Generative AI systems with LangChain, AutoGen, CrewAI, MCP, RAG, prompt engineering, and harness engineering.
+> A comprehensive, highly detailed step-by-step guide covering everything you need: Python, FastAPI, and production-grade G  enerative AI systems with LangChain, AutoGen, CrewAI, MCP, RAG, prompt engineering, and harness engineering.
 
 ---
 
@@ -417,7 +417,7 @@ Build MCP servers for Jira, Slack, and a knowledge base. Expose SSE endpoint in 
 Combine everything: auth, rate limiting, LLM fallback (OpenAI/Anthropic), guardrails, vector search, agent orchestration, full observability (Langfuse, Prometheus, Sentry), CI/CD for prompts, automated rollback, cost tracking, admin dashboard.
 
 ---
-
+//
 ## Resources & Continuous Learning
 
 - **Python:** Real Python (realpython.com), official Python docs, *Fluent Python* by Luciano Ramalho.
