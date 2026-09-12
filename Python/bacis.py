@@ -1,5 +1,19 @@
-print("hello world") // printing the values
+print("hello world")
+print("this is mesage")
 
-#  data types 
-# typeof opeator use to find data types"
-print()
+print("fistline \n second message ")
+
+
+num1 = 42
+num2 = 4
+ans =  num1 + num2
+print(ans)
+
+ans = num1-num2
+print(ans)
+ans = num1*num2
+print(ans)
+ans = num1 / num2
+print(ans)
+ans = num1 // num2
+print(ans)

@@ -189,7 +189,8 @@
 ### Security
 
 - HTTPS: HSTS headers, secure cookies (secure, httponly, samesite).
-- CORS properly configured: not just *; validate referer/origin.
+- CORS properly configured: not just *; validate sudo systemctl restart bluetooth
+referer/origin.
 - CSRF protection: for cookie‑based auth, same‑site lax/strict, double submit cookie.
 - Input validation: Pydantic strict mode, sanitising against XSS (bleach for HTML output), SQL injection prevention (parameterised queries).
 - Secrets: never hardcode; environment variables, vault (HashiCorp Vault), cloud secrets manager.
