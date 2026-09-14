@@ -131,3 +131,81 @@ Ask the user to enter their favourite colour. If they enter “red”, “RED”
 “I don’t like [colour], I prefer red”
 """
 
+userInp = input("Enter your fav color :");
+if userInp == "red" or userInp =="RED":
+  print("i like red too");
+else:
+  print(f"I DONT LIKE {userInp}, i prefer red ");
+
+"""Q16 Ask the user if it is raining and convert their answer to lower case
+so it doesn’t matter what case they type it in. If they answer “yes”,
+ask if it is windy. If they answer “yes” to this second question,
+display the answer “It is too windy for an umbrella”, otherwise
+display the message “Take an umbrella”. If they did not answer yes
+to the first question, display the answer “Enjoy your day”.
+"""
+
+isRannning = input("is ranining ? :").lower();
+if isRannning =="yes":
+  iswinddy = input("there is windi outsude").lower();
+  if iswinddy == "yes":
+    print("its too winduy fora take a umbreellla")
+  else:
+    print("take a umbrellla")
+else:
+  print("enjoy your day")
+
+"""Q17
+
+Ask the user’s age. If they
+are 18 or over, display the
+message “You can vote”, if
+they are aged 17, display the
+message “You can learn to
+drive”, if they are 16, display
+the message “You can buy a
+lottery ticket”, if they are
+under 16, display the
+message “You can go Trick-
+or-Treating”.|
+"""
+
+userAge = float(input("ENTER YOUR AGE :"));
+if userAge >=18:
+  print("you can vote")
+elif userAge ==17:
+  print("you can take driving licence");
+elif userAge <=16:
+  print("you cAN GO TICK AND TRETE45")
+
+"""Q18
+Ask the user to enter a number. If it is under 10,
+display the message “Too low”, if their number is
+between 10 and 20, display “Correct”, otherwise
+display “Too high”
+"""
+
+num = int(input("enter the number"))
+if num<10:
+  print("too low")
+elif num<20 and num >10:
+  print("corrrect")
+else:
+  print("too high ")
+
+"""19
+Ask the user to enter 1, 2 or 3. If they enter a 1, display
+the message “Thank you”, if they enter a 2, display
+“Well done”, if they enter a 3, display “Correct”. I
+"""
+
+inp = int(input(" enter between 1 , 2 and 3 :"))
+if inp == 1:
+  print("thankyou ")
+elif inp == 2:
+  print("welldone")
+elif inp == 3:
+  print("correct")
+else:
+  print("enter again")
+
